@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Recyclerview_test</string>
+    <string name="category_info">Choose a category to\nstart reading</string>
+</resources>
