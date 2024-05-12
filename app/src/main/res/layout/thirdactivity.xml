@@ -2,23 +2,33 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/RecyParent"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+    <android.widget.Button
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/vector"
+        app:layout_constraintEnd_toStartOf="@+id/tv_newsArticle"
+        app:layout_constraintTop_toTopOf="parent">
+    </android.widget.Button>
 
     <TextView
-        android:id="@+id/tv_category_title"
+        android:id="@+id/tv_newsArticle"
         android:layout_width="match_parent"
         android:layout_height="73dp"
-        android:paddingStart="16dp"
+        android:paddingStart="51dp"
         android:paddingTop="22dp"
         android:paddingBottom="21dp"
-        android:text="NewsApp"
+        android:text="Photo proves US star is..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0"
         android:textSize="24dp"
@@ -27,20 +37,5 @@
         android:fontFamily="@font/Inter"
         />
 
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    
-        <ImageView
-            android:id="@+id/iv_apps_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/Rectangle"
-            app:layout_constraintTop_toBottomOf="@+id/tv_category_title"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="16dp"
-            />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

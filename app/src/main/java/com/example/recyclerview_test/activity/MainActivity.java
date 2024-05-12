@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_business.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_entertainment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_general.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_health.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_science.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         move_btn_technology.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Subactivity.class);
+                Intent intent = new Intent(MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
