@@ -66,4 +66,7 @@ public class DataModel {
         this.tv_time = tv_time;
     }
 
+    public int getImageResourceId() {
+        return 0;
+    }
 }

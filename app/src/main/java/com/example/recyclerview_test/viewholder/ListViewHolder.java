@@ -20,8 +20,6 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
 
     TextView time;
 
-    TextView category;
-
     TextView content;
 
     ConstraintLayout constraintLayout;
@@ -30,12 +28,22 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
     public ListViewHolder(@NonNull View itemView) {
         super(itemView);
         background = itemView.findViewById(R.id.iv_apps_image);
+
         /*time = itemView.findViewById(R.id.)*/
     }
 
     public void onBind(DataModel dataModel) {
+        title.setText(dataModel.gettv_title());
+        writer.setText(dataModel.gettv_writer());
+        time.setText(dataModel.gettv_time());
+        content.setText(dataModel.gettv_content());
 
-
+        int imageResourceId = dataModel.getImageResourceId();
+        if (imageResourceId != 0) {
+            background.setImageResource(imageResourceId);
+        } else {
+            background.setImageDrawable(null);
+        }
 
     }
 }

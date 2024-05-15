@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">Recyclerview_test</string>
     <string name="category_info">Choose a category to\nstart reading</string>
-    <string name=""
+    <string name="first_article">10 of the Cheapest and Healthiest Ways \nto Feed a Group, According to Reddit...</string>
+    <string name="first_writer">Pedro Berrill</string>
+    <string name="first_article_time">3 hour ago</string>
+    <string name="second_article">Nasa set to announce plans to return samples from Mars back to Earth</string>
+    <string name="second_writer">Anna Dietz</string>
+    <string name="second_article_time">11 hours ago</string>
+    <string name="third_article">Photo proves US star is a cheat code as world record obliterated - Fox Sports</string>
+    <string name="third_writer">Pedro Berrill</string>
+    <string name="third_article_time">3 hours ago</string>
+    <string name="third_article_detail_text">American Sydney McLaughlin has shattered her own 400m hurdles world record at the world athletics championships, leaving fans lost for words.
+
+McLaughlin, the reigning Olympic champion, was the red-hot favourite and absolutely smashed her own world record by nearly a second in the final on Saturday in Eugene, Oregon.
+
+The 22-year-old was streaks ahead of the field well before the turn and left her world-class rivals in her wake to cross the line in 50.68sec.
+
+The incredible time chopped nearly a full second off her previous mark of 51.41, set at last year’s Tokyo Olympics.</string>
+    
+    <string name="third_article_title">Photo proves US star is a cheat code as world record obliterated - Fox Sports</string>
 </resources>
