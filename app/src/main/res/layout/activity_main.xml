@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="activity.MainActivity">
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cl_categoryLine"
@@ -32,7 +31,7 @@
         android:textSize="24sp"
         android:textColor="@color/white"
         android:background="@color/category_title"
-        android:fontFamily="@font/Inter"
+        android:fontFamily="@font/inter"
         />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -53,7 +52,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="@string/category_info"
         android:textColor="@color/black"
-        android:fontFamily="@font/Inter"
+        android:fontFamily="@font/inter"
         android:textSize="24sp"
         />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -75,7 +74,7 @@
             android:layout_marginEnd="29dp"
             android:background="@drawable/btn_business_shape"
             android:drawableTop="@drawable/business"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
             android:text="business"
@@ -97,7 +96,7 @@
             android:layout_marginEnd="29dp"
             android:background="@drawable/btn_entertainment_shape"
             android:drawableTop="@drawable/akar_icons_music"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
             android:text="entertainment"
@@ -117,7 +116,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/btn_general_shape"
             android:drawableTop="@drawable/akar_icons_people"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
             android:text="general"
@@ -149,7 +148,7 @@
             android:layout_marginEnd="29dp"
             android:background="@drawable/btn_health_shape"
             android:drawableTop="@drawable/carbon_health_cross"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
             android:text="health"
@@ -167,7 +166,7 @@
             android:layout_marginEnd="29dp"
             android:background="@drawable/btn_science_shape"
             android:drawableTop="@drawable/eos_icons_science_outlined"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
             android:text="science"
@@ -191,7 +190,7 @@
             android:paddingBottom="20dp"
             android:text="sports"
             android:textAllCaps="false"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="29dp"
             >
@@ -221,7 +220,7 @@
             android:paddingBottom="20dp"
             android:text="technology"
             android:textAllCaps="false"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:layout_marginStart="16dp"
             android:textSize="12sp"
             app:layout_goneMarginStart="16dp"

@@ -45,7 +45,7 @@
         android:textSize="24sp"
         android:textColor="@color/white"
         android:background="@color/category_title"
-        android:fontFamily="@font/Inter"
+        android:fontFamily="@font/inter"
         />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -67,7 +67,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:text="@string/third_article"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:textSize="16sp"
             />
 
@@ -81,7 +81,7 @@
             android:layout_marginTop="14dp"
             android:text="@string/third_writer"
             android:textSize="14sp"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             />
 
         <TextView
@@ -93,7 +93,7 @@
             app:layout_constraintVertical_bias="0"
             app:layout_constraintEnd_toEndOf="parent"
             android:text="@string/third_article_time"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:textSize="14sp"
             android:textColor="@color/hour_time_process"
             app:layout_constraintHorizontal_bias="0"
@@ -107,7 +107,7 @@
         android:layout_height="218dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:foreground="@drawable/Rectangle3"
+        android:foreground="@drawable/rectangle3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cl_title_article"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,7 +142,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:text="@string/third_article_detail_text"
-            android:fontFamily="@font/Inter"
+            android:fontFamily="@font/inter"
             android:textSize="12sp"
             />
 

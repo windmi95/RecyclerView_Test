@@ -4,7 +4,7 @@
     >
 
     <Item
-        android:drawable="@drawable/Rectangle3"
+        android:drawable="@drawable/rectangle3"
         />
 
 

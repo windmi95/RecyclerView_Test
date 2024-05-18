@@ -4,7 +4,7 @@
     >
 
     <Item
-        android:drawable="@drawable/Rectangle2"
+        android:drawable="@drawable/rectangle2"
         />
 
     <corners

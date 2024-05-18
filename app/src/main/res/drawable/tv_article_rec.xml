@@ -3,7 +3,7 @@
     android:shape="rectangle"
     >
         <Item
-            android:drawable="@drawable/Rectangle"
+            android:drawable="@drawable/rectangle"
             />
 
 

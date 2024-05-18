@@ -38,10 +38,9 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
     public void onBind(DataModel dataModel) {
         title.setText(dataModel.gettv_title());
         writer.setText(dataModel.gettv_writer());
-        time.setText(dataModel.gettv_time());
-        content.setText(dataModel.gettv_content());
+        time.setText("1시간 전");
 
-        int imageResourceId = dataModel.getImageResourceId();
+        int imageResourceId = dataModel.getiv_background();
         if (imageResourceId != 0) {
             background.setImageResource(imageResourceId);
         } else {

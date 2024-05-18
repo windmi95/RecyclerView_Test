@@ -1,6 +1,8 @@
 package com.example.recyclerview_test.data;
 
-public class DataModel {
+import java.io.Serializable;
+
+public class DataModel implements Serializable {
 
 
     private int iv_background;
@@ -11,11 +13,13 @@ public class DataModel {
     private int tv_time;
     private String tv_category;
 
-    public DataModel(int iv_background, String tv_title, String tv_content) {
+    public DataModel(int iv_background, String tv_title, String tv_content,String tv_writer,int tv_time,String tv_category) {
         this.iv_background = iv_background;
         this.tv_title = tv_title;
         this.tv_content = tv_content;
-
+        this.tv_writer = tv_writer;
+        this.tv_time = tv_time;
+        this.tv_category = tv_category;
     }
 
     public int getiv_background() {
@@ -66,7 +70,4 @@ public class DataModel {
         this.tv_time = tv_time;
     }
 
-    public int getImageResourceId() {
-        return 0;
-    }
 }
