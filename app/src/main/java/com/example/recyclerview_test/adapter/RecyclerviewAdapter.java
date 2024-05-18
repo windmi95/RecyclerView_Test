@@ -28,7 +28,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<ListViewHolder> {
     @Override
     public ListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(
-                R.layout.subactivity,
+                R.layout.first_article,
                 parent,
                 false
         );
@@ -37,7 +37,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<ListViewHolder> {
         viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int position = getAdapterPosition();
+                int position = viewHolder.getAdapterPosition();
                 if (listener != null && position != RecyclerView.NO_POSITION) {
                     listener.onItemClick(position);
                 }
@@ -46,9 +46,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<ListViewHolder> {
         return viewHolder;
     }
 
-    private int getAdapterPosition() {
-        return 0;
-    }
+
 
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
@@ -61,7 +59,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<ListViewHolder> {
     }
 
     public void setDatamModelList(ArrayList<DataModel> datamModelList) {
-        this.DatamModelList = DatamModelList;
+        this.DatamModelList = datamModelList;
         notifyDataSetChanged();
     }
 }

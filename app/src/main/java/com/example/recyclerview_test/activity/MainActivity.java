@@ -1,6 +1,7 @@
 package com.example.recyclerview_test.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,13 +9,22 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.recyclerview_test.R;
+import com.example.recyclerview_test.data.DataModel;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    ArrayList<DataModel> DataModels;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        DataModels = new ArrayList<DataModel>();
+
+        settingUserList();
 
         Button move_btn_business = (Button) findViewById(R.id.btn_business);
         Button move_btn_entertainment = (Button) findViewById(R.id.btn_music);
@@ -23,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         Button move_btn_science = (Button) findViewById(R.id.btn_science);
         Button move_btn_sports = (Button) findViewById(R.id.btn_sports);
         Button move_btn_technology = (Button) findViewById(R.id.btn_technology);
+
+
 
         move_btn_business.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,5 +91,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+    }
+
+    private void settingUserList() {
+
     }
 }

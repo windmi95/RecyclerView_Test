@@ -27,9 +27,12 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
 
     public ListViewHolder(@NonNull View itemView) {
         super(itemView);
-        background = itemView.findViewById(R.id.iv_apps_image);
+        background = itemView.findViewById(R.id.iv_first_apps_image);
+        title = itemView.findViewById(R.id.tv_headline);
+        writer = itemView.findViewById(R.id.tv_first_writer);
+        time = itemView.findViewById(R.id.tv_first_article_time);
+        constraintLayout = itemView.findViewById(R.id.cl_first_article);
 
-        /*time = itemView.findViewById(R.id.)*/
     }
 
     public void onBind(DataModel dataModel) {
