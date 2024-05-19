@@ -10,10 +10,10 @@ public class DataModel implements Serializable {
     private String tv_content;
 
     private String tv_writer;
-    private int tv_time;
+    private String tv_time;
     private String tv_category;
 
-    public DataModel(int iv_background, String tv_title, String tv_content,String tv_writer,int tv_time,String tv_category) {
+    public DataModel(int iv_background, String tv_title, String tv_content,String tv_writer,String tv_time,String tv_category) {
         this.iv_background = iv_background;
         this.tv_title = tv_title;
         this.tv_content = tv_content;
@@ -62,11 +62,11 @@ public class DataModel implements Serializable {
     }
 
 
-    public int gettv_time() {
+    public String gettv_time() {
         return tv_time;
     }
 
-    public void settv_time(int tv_time) {
+    public void settv_time(String tv_time) {
         this.tv_time = tv_time;
     }
 

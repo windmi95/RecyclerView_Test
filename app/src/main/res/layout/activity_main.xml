@@ -73,7 +73,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="29dp"
             android:background="@drawable/btn_business_shape"
-            android:drawableTop="@drawable/business"
+            android:drawableTop="@drawable/business1"
             android:fontFamily="@font/inter"
             android:paddingTop="18dp"
             android:paddingBottom="20dp"
@@ -213,6 +213,7 @@
             android:layout_height="90dp"
             android:background="@drawable/btn_technology_shape"
             android:drawableTop="@drawable/mdi_robot_industrial_outline"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0"
@@ -221,9 +222,9 @@
             android:text="technology"
             android:textAllCaps="false"
             android:fontFamily="@font/inter"
-            android:layout_marginStart="16dp"
             android:textSize="12sp"
-            app:layout_goneMarginStart="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="254dp"
             >
 
         </android.widget.Button>

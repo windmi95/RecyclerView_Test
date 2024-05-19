@@ -2,6 +2,7 @@ package com.example.recyclerview_test.activity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
@@ -44,7 +45,9 @@ public class SubActivity extends AppCompatActivity {
         recyclerView.setAdapter(recyClerViewAdapter);
         recyclerView.setLayoutManager(linearLayoutManager);
 
-       recyClerViewAdapter.setDatamModelList(dataModelArrayList);
+        recyClerViewAdapter.setDatamModelList(dataModelArrayList);
+
+
     }
 
 

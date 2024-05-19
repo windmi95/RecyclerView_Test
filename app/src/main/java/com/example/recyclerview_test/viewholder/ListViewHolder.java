@@ -1,5 +1,6 @@
 package com.example.recyclerview_test.viewholder;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -38,7 +39,12 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
     public void onBind(DataModel dataModel) {
         title.setText(dataModel.gettv_title());
         writer.setText(dataModel.gettv_writer());
-        time.setText("1시간 전");
+        time.setText(dataModel.gettv_time());
+
+        Log.v("title","titlename: "+dataModel.gettv_title());
+        Log.v("time","timeOut:"+dataModel.gettv_time());
+        Log.v("ListViewHolder", "Title: " + dataModel.gettv_title() + ", Writer: " + dataModel.gettv_writer() + ", Time: " + dataModel.gettv_time());
+
 
         int imageResourceId = dataModel.getiv_background();
         if (imageResourceId != 0) {
